@@ -25,10 +25,9 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="EEG Data Analysis"
+              description="Developed a machine learning model using CWT and CNN,achieving 76% accuracy in classifying EEG data for m-TBI patient identification.
+                          Composed neural network parameters, determining the optimal batch size as 32 and the learning rate to be 0.001 for peak performance."
             />
           </Col>
 
@@ -36,10 +35,10 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Quantum Approach to Credit"
+              description=" Revamped a quantum circuitry approach to solve risk-reward problems using the Qiskit library to estimate Var CVaR. Performed quantum amplitude estimation to obtain 80% accuracy in the expected loss for the Gaussian uncertainty model."
+              // ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
+              // demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
 
@@ -47,10 +46,11 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="B&WImageColorization"
+              description="Restructured a CNN model for converting black-and-white images into color, leveraging L, A, and B color space.
+Programmed a model to manage a variety of real-world scenes using the Scene Understanding dataset, attaining a precision score of 56%."
+              // ghLink="https://github.com/soumyajit4419/Editor.io"
+              // demoLink="https://editor.soumya-jit.tech/"              
             />
           </Col>
 
@@ -58,21 +58,21 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
-            />
+              title="Benchmarking of ML Algorithms"
+              description="Engineered a project to fine-tune the OpenAI Whisper model, improving accuracy by 26% from 49 to 36 Word Error Rate (WER)."
+            //   ghLink="https://github.com/soumyajit4419/Plant_AI"
+            //   demoLink="https://plant49-ai.herokuapp.com/"
+             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Virtual Wardrobe AI"
+              description=" Implementedarobust image processing pipeline for precise clothing detection achieving realistic clothing visualization.
+ Optimized system's performance by leveraging CUDA acceleration resulting in 40% improvement in processing speed."
+              // // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
 
@@ -83,8 +83,8 @@ function Projects() {
               title="Face Recognition and Emotion Detection"
               description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
               Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              // ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              // // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>
         </Row>
