@@ -2,8 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
 function Footer() {
-  let date = new Date();
-  let year = date.getFullYear();
   return (
     <Container fluid className="footer">
       <Row>
@@ -13,6 +11,7 @@ function Footer() {
           <h3></h3>
         </Col>
         <Col md="4" className="footer-body">
+          <h3> hmm</h3>
         </Col>
       </Row>
     </Container>
