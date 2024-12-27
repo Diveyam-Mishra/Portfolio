@@ -23,7 +23,6 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "postinstall": "npm install --legacy-peer-deps || true",
     "start": "react-scripts start",
     "build": "ESLINT_NO_DEV_ERRORS=true react-scripts build react-scripts build",
     "test": "react-scripts test",
