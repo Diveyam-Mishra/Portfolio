@@ -4,10 +4,10 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
+import editor from "../../Assets/Projects/BlacknWhite.jpeg";
+import eeg from "../../Assets/Projects/EEG.jpeg";
 import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import qbits from "../../Assets/Projects/Qbits.png";
 
 function Projects() {
   return (
@@ -23,7 +23,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={eeg}
               isBlog={false}
               title="EEG Data Analysis"
               description="Developed a machine learning model using CWT and CNN,achieving 76% accuracy in classifying EEG data for m-TBI patient identification.
@@ -33,7 +33,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={qbits}
               isBlog={false}
               title="Quantum Approach to Credit"
               description=" Revamped a quantum circuitry approach to solve risk-reward problems using the Qiskit library to estimate Var CVaR. Performed quantum amplitude estimation to obtain 80% accuracy in the expected loss for the Gaussian uncertainty model."
